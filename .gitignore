@@ -1,0 +1,9 @@
+# Ignore virtual environment and temporary data
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+outputs/
+*.csv
+*.xlsx

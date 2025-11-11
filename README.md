@@ -1,17 +1,17 @@
 # Tri-Objective SSL Framework
 
 Official implementation of the paper:
-**"Tri-Objective Self-Supervised Representation Learning for High-Dimensional Tabular Data" (IEEE PuneCon 2025)**
+"Tri-Objective Self-Supervised Representation Learning for High-Dimensional Tabular Data" (IEEE PuneCon 2025)
 
-## 📘 Overview
+📘 Overview
 This repository contains the implementation of the Tri-Objective SSL model that jointly optimizes:
-- **Contrastive Loss**
-- **Reconstruction Loss**
-- **Consistency Regularization**
+- Contrastive Loss
+- Reconstruction Loss
+- Consistency Regularization
 
 It supports mixed-type tabular data and handles missing values through implicit denoising.
 
-## ⚙️ Requirements
+⚙️ Requirements
 Install dependencies with:
 ```bash
 pip install -r requirements.txt
@@ -19,9 +19,7 @@ pip install -r requirements.txt
 🚀 Usage
 
 Example run:
-
 python train.py --dataset demo_data/health.csv --epochs 50
-
 
 To visualize embeddings:
 python plot_tsne.py --input outputs/embeddings.npy
@@ -34,4 +32,4 @@ SHAP feature importances
 
 🧩 Citation
 If you use this code, please cite:
-Prem K., "Tri-Objective Self-Supervised Representation Learning for High-Dimensional Tabular Data," IEEE PuneCon 2025.
+M. Rama Mohana Rao et al., “Tri-Objective Self-Supervised Representation Learning for High-Dimensional Tabular Data,” Proc. IEEE PuneCon 2025, Pune, India, Dec. 2025.
